@@ -1,6 +1,6 @@
-import Address from "./components/Address";
-import FullName from "./components/FullName";
-import ProfilePhoto from "./components/ProfilePhoto";
+import Address from "./Component/Profile/Address";
+import FullName from "./Component/Profile/FullName";
+import ProfilePhoto from "./Component/Profile/ProfilePhoto";
 import bgCard from "./bg.jpg";
 
 import {
@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-md-6">
             <div className="card p-2 shadow text-center">
@@ -43,7 +43,7 @@ function App() {
                     <FaGoogle />
                   </li>
                 </ul>
-                <div className="px-4 mt-1">
+                <div className="px-2 mt-1">
                   <p className="small">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
